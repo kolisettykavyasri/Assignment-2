@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Design Mastery | Responsive Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="#">Portfolio</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="section__container">
+            <div class="content">
+                <p class="subtitle">HELLO</p>
+                <h1 class="title">
+                    I'm <span>Kavya<br>a</span> Web Developer
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <section id="about" class="about"> <!-- Added id here -->
+            <div class="content">
+                <h1 class="title">About Me</h1>
+                <div class="about-details">
+                    <div class="left">
+                        <img src="kavya img.jpg" alt="Profile Picture">
+                    </div>
+                    <div class="right">
+                        <h2 class="topic">Who I Am</h2>
+                        <p> I am Kavya, currently pursuing B-Tech at VFSTR in Guntur. Actually I am from Narasaraopet staying in hostel. My mother is a homemaker, my father is a Business man. I help them in my free time </p>
+<div class="topic">Professional Interests</div>
+            <p>
+              
+              <li>Dancing</li>
+              <li>Reading</li>
+               <li>Coding</li>
+            </p>
+          </div>
+
+                                            </div>
+
+                </div>
+            </div>
+        </section>
+
+    <section id="education" class="education-section">
+    <div class="content">
+        <div class="title"><span>Education</span></div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon"></div>
+                <div class="timeline-content">
+                    <h3>Schooling</h3>
+                    <p>Sri Chaitanya English Medium School, Narasaraopet</p>
+                    <span class="timeline-date">2020</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon"></div>
+                <div class="timeline-content">
+                    <h3>Intermediate</h3>
+                    <p>Sri Chaitanya College, Narasaraopet</p>
+                    <span class="timeline-date">2022</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon"></div>
+                <div class="timeline-content">
+                    <h3>Bachelor's in Computer Science</h3>
+                    <p>Vignan's Foundation for Science, Technology & Research, Guntur</p>
+                    <span class="timeline-date">2022-2026</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+     <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="project">
+                    <img src="kavya img1.jpg" alt="Project 1">
+                    <h3>News Aggregator</h3>
+                    <p>The function of a news aggregator is to collect information from various feeds and sources for display on a single platform.</p>
+                    <a href="https://example.com" target="_blank">View Demo</a>
+                </article>
+                <article class="project">
+                    <img src="kavya img2.jpg" alt="Project 2">
+                    <h3>Movie Recommendation System</h3>
+                    <p>Movie recommender systems are intelligent algorithms that suggest movies for users to watch based on their previous viewing behavior & preferences</p>
+                    <a href="https://example.com" target="_blank">View Demo</a>
+                </article>
+                 </div>
+        </div>
+    </section>
+
+
+   <section id="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-wrapper">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress-circle" data-progress="90">
+                    <span class="percentage">90%</span>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress-circle" data-progress="80">
+                    <span class="percentage">80%</span>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-circle" data-progress="70">
+                    <span class="percentage">70%</span>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="progress-circle" data-progress="85">
+                    <span class="percentage">85%</span>
+                </div>
+            </div>
+            <!-- Add more skills as needed -->
+        </div>
+    </div>
+</section>
+
+
+
+    <section id="contact" class="contact">
+        <div class="content">
+            <div class="title"><span>Contact</span></div>
+            <div class="contact-container">
+                <form class="contact-form" id="contactform" onsubmit="return validateForm()">
+                    <h2>Contact Us</h2>
+                    <input type="text" id="name" name="name" placeholder="Name">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                    <textarea id="message" name="message" placeholder="Message"></textarea>
+                    <p id="error-message" style="color: red; display: none;">Please fill out all fields.</p>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="text">
+            <div class="icons">
+                <a href="https://facebook.com/yourprofile"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/youprofile"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/yourprofile"><i class="fab fa-instagram"></i></a>
+            </div>
+            <span>Created By <a href="#">Kavya</a> | &#169; All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <script src="C:\Users\aasha\OneDrive\Desktop\MERN\assignment 3\javascript.js"></script>
+</body>
+</html>
